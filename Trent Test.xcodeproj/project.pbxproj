@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B599E02519BD32EC00702E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B599E02419BD32EC00702E8E /* Foundation.framework */; };
+		B599E02719BD32EC00702E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B599E02619BD32EC00702E8E /* CoreGraphics.framework */; };
+		B599E02919BD32EC00702E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B599E02819BD32EC00702E8E /* UIKit.framework */; };
+		B599E02F19BD32EC00702E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B599E02D19BD32EC00702E8E /* InfoPlist.strings */; };
+		B599E03119BD32EC00702E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B599E03019BD32EC00702E8E /* main.m */; };
+		B599E03519BD32EC00702E8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B599E03419BD32EC00702E8E /* AppDelegate.m */; };
+		B599E03719BD32EC00702E8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B599E03619BD32EC00702E8E /* Images.xcassets */; };
+		B599E03E19BD32EC00702E8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B599E03D19BD32EC00702E8E /* XCTest.framework */; };
+		B599E03F19BD32EC00702E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B599E02419BD32EC00702E8E /* Foundation.framework */; };
+		B599E04019BD32EC00702E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B599E02819BD32EC00702E8E /* UIKit.framework */; };
+		B599E04819BD32EC00702E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B599E04619BD32EC00702E8E /* InfoPlist.strings */; };
+		B599E04A19BD32EC00702E8E /* Trent_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B599E04919BD32EC00702E8E /* Trent_TestTests.m */; };
+		B599E05519BD3B7500702E8E /* Flash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B599E05319BD3B7500702E8E /* Flash.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B599E04119BD32EC00702E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B599E01919BD32EC00702E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B599E02019BD32EC00702E8E;
+			remoteInfo = "Trent Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B599E02119BD32EC00702E8E /* Trent Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trent Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B599E02419BD32EC00702E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B599E02619BD32EC00702E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B599E02819BD32EC00702E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B599E02C19BD32EC00702E8E /* Trent Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trent Test-Info.plist"; sourceTree = "<group>"; };
+		B599E02E19BD32EC00702E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B599E03019BD32EC00702E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B599E03219BD32EC00702E8E /* Trent Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trent Test-Prefix.pch"; sourceTree = "<group>"; };
+		B599E03319BD32EC00702E8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B599E03419BD32EC00702E8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B599E03619BD32EC00702E8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B599E03C19BD32EC00702E8E /* Trent TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trent TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B599E03D19BD32EC00702E8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B599E04519BD32EC00702E8E /* Trent TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trent TestTests-Info.plist"; sourceTree = "<group>"; };
+		B599E04719BD32EC00702E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B599E04919BD32EC00702E8E /* Trent_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trent_TestTests.m; sourceTree = "<group>"; };
+		B599E05319BD3B7500702E8E /* Flash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flash.cpp; sourceTree = "<group>"; };
+		B599E05419BD3B7500702E8E /* Flash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flash.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B599E01E19BD32EC00702E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B599E02719BD32EC00702E8E /* CoreGraphics.framework in Frameworks */,
+				B599E02919BD32EC00702E8E /* UIKit.framework in Frameworks */,
+				B599E02519BD32EC00702E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B599E03919BD32EC00702E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B599E03E19BD32EC00702E8E /* XCTest.framework in Frameworks */,
+				B599E04019BD32EC00702E8E /* UIKit.framework in Frameworks */,
+				B599E03F19BD32EC00702E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B599E01819BD32EC00702E8E = {
+			isa = PBXGroup;
+			children = (
+				B599E02A19BD32EC00702E8E /* Trent Test */,
+				B599E04319BD32EC00702E8E /* Trent TestTests */,
+				B599E02319BD32EC00702E8E /* Frameworks */,
+				B599E02219BD32EC00702E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B599E02219BD32EC00702E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B599E02119BD32EC00702E8E /* Trent Test.app */,
+				B599E03C19BD32EC00702E8E /* Trent TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B599E02319BD32EC00702E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B599E02419BD32EC00702E8E /* Foundation.framework */,
+				B599E02619BD32EC00702E8E /* CoreGraphics.framework */,
+				B599E02819BD32EC00702E8E /* UIKit.framework */,
+				B599E03D19BD32EC00702E8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B599E02A19BD32EC00702E8E /* Trent Test */ = {
+			isa = PBXGroup;
+			children = (
+				B599E03319BD32EC00702E8E /* AppDelegate.h */,
+				B599E03419BD32EC00702E8E /* AppDelegate.m */,
+				B599E03619BD32EC00702E8E /* Images.xcassets */,
+				B599E02B19BD32EC00702E8E /* Supporting Files */,
+				B599E05319BD3B7500702E8E /* Flash.cpp */,
+				B599E05419BD3B7500702E8E /* Flash.h */,
+			);
+			path = "Trent Test";
+			sourceTree = "<group>";
+		};
+		B599E02B19BD32EC00702E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B599E02C19BD32EC00702E8E /* Trent Test-Info.plist */,
+				B599E02D19BD32EC00702E8E /* InfoPlist.strings */,
+				B599E03019BD32EC00702E8E /* main.m */,
+				B599E03219BD32EC00702E8E /* Trent Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B599E04319BD32EC00702E8E /* Trent TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B599E04919BD32EC00702E8E /* Trent_TestTests.m */,
+				B599E04419BD32EC00702E8E /* Supporting Files */,
+			);
+			path = "Trent TestTests";
+			sourceTree = "<group>";
+		};
+		B599E04419BD32EC00702E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B599E04519BD32EC00702E8E /* Trent TestTests-Info.plist */,
+				B599E04619BD32EC00702E8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B599E02019BD32EC00702E8E /* Trent Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B599E04D19BD32EC00702E8E /* Build configuration list for PBXNativeTarget "Trent Test" */;
+			buildPhases = (
+				B599E01D19BD32EC00702E8E /* Sources */,
+				B599E01E19BD32EC00702E8E /* Frameworks */,
+				B599E01F19BD32EC00702E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trent Test";
+			productName = "Trent Test";
+			productReference = B599E02119BD32EC00702E8E /* Trent Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B599E03B19BD32EC00702E8E /* Trent TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B599E05019BD32EC00702E8E /* Build configuration list for PBXNativeTarget "Trent TestTests" */;
+			buildPhases = (
+				B599E03819BD32EC00702E8E /* Sources */,
+				B599E03919BD32EC00702E8E /* Frameworks */,
+				B599E03A19BD32EC00702E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B599E04219BD32EC00702E8E /* PBXTargetDependency */,
+			);
+			name = "Trent TestTests";
+			productName = "Trent TestTests";
+			productReference = B599E03C19BD32EC00702E8E /* Trent TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B599E01919BD32EC00702E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Benjamin Bourland";
+				TargetAttributes = {
+					B599E03B19BD32EC00702E8E = {
+						TestTargetID = B599E02019BD32EC00702E8E;
+					};
+				};
+			};
+			buildConfigurationList = B599E01C19BD32EC00702E8E /* Build configuration list for PBXProject "Trent Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B599E01819BD32EC00702E8E;
+			productRefGroup = B599E02219BD32EC00702E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B599E02019BD32EC00702E8E /* Trent Test */,
+				B599E03B19BD32EC00702E8E /* Trent TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B599E01F19BD32EC00702E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B599E02F19BD32EC00702E8E /* InfoPlist.strings in Resources */,
+				B599E03719BD32EC00702E8E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B599E03A19BD32EC00702E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B599E04819BD32EC00702E8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B599E01D19BD32EC00702E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B599E03519BD32EC00702E8E /* AppDelegate.m in Sources */,
+				B599E05519BD3B7500702E8E /* Flash.cpp in Sources */,
+				B599E03119BD32EC00702E8E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B599E03819BD32EC00702E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B599E04A19BD32EC00702E8E /* Trent_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B599E04219BD32EC00702E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B599E02019BD32EC00702E8E /* Trent Test */;
+			targetProxy = B599E04119BD32EC00702E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B599E02D19BD32EC00702E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B599E02E19BD32EC00702E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B599E04619BD32EC00702E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B599E04719BD32EC00702E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B599E04B19BD32EC00702E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B599E04C19BD32EC00702E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B599E04E19BD32EC00702E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trent Test/Trent Test-Prefix.pch";
+				INFOPLIST_FILE = "Trent Test/Trent Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B599E04F19BD32EC00702E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trent Test/Trent Test-Prefix.pch";
+				INFOPLIST_FILE = "Trent Test/Trent Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B599E05119BD32EC00702E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trent Test.app/Trent Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trent Test/Trent Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Trent TestTests/Trent TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B599E05219BD32EC00702E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trent Test.app/Trent Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trent Test/Trent Test-Prefix.pch";
+				INFOPLIST_FILE = "Trent TestTests/Trent TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B599E01C19BD32EC00702E8E /* Build configuration list for PBXProject "Trent Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B599E04B19BD32EC00702E8E /* Debug */,
+				B599E04C19BD32EC00702E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B599E04D19BD32EC00702E8E /* Build configuration list for PBXNativeTarget "Trent Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B599E04E19BD32EC00702E8E /* Debug */,
+				B599E04F19BD32EC00702E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B599E05019BD32EC00702E8E /* Build configuration list for PBXNativeTarget "Trent TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B599E05119BD32EC00702E8E /* Debug */,
+				B599E05219BD32EC00702E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B599E01919BD32EC00702E8E /* Project object */;
+}
